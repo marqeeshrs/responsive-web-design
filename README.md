@@ -5,4 +5,6 @@ Beginning with something that I think seems a little more on the fundamental sid
 I am going to begin a project and see how updating files and such looks for me while using github
 
 # cat-photo-app
-Started with heading applications
+Started with header implementation
+Working on juggling git and markdown and workflow. Using this html project as a jump off for cementing better habits.
+May need to create tutorial projects and become more engrossed in learning everything. YAAAAAY!
