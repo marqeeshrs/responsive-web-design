@@ -8,3 +8,7 @@ I am going to begin a project and see how updating files and such looks for me w
 Started with header implementation
 Working on juggling git and markdown and workflow. Using this html project as a jump off for cementing better habits.
 May need to create tutorial projects and become more engrossed in learning everything. YAAAAAY!
+Also, very unsure when I am supposed to use branches... 
+I guess that is for more complicated cooperation projects. 
+I create versions of my projects, so it must be the same thing via network with extra protections.
+Man, I just want to code... HA!
