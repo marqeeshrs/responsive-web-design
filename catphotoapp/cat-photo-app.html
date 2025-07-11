@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CatPhotoApp: Enjoy cute cat photos, lists of what cats love and hate, and submit your own cat's photo!">
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+
+      <!-- Section: Cat Photos -->
+      <section aria-labelledby="cat-photos-heading">
+        <h2 id="cat-photos-heading">Cat Photos</h2>
+        <p>
+          Everyone loves 
+          <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" target="_blank" rel="noopener noreferrer">
+            cute cats
+          </a>
+          online!
+        </p>
+        <p>
+          See more 
+          <a href="https://freecatphotoapp.com" target="_blank" rel="noopener noreferrer">
+            cat photos
+          </a>
+          in our gallery.
+        </p>
+        <a href="https://freecatphotoapp.com" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+        </a>
+      </section>
+
+      <!-- Section: Cat Lists -->
+      <section aria-labelledby="cat-lists-heading">
+        <h2 id="cat-lists-heading">Cat Lists</h2>
+
+        <!-- Things cats love -->
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>Catnip</li>
+          <li>Laser pointers</li>
+          <li>Lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>
+        </figure>
+
+        <!-- Things cats hate -->
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>Flea treatment</li>
+          <li>Thunder</li>
+          <li>Other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+        </figure>
+      </section>
+
+      <!-- Section: Cat Form -->
+      <section aria-labelledby="cat-form-heading">
+        <h2 id="cat-form-heading">Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo" method="post">
+          <!-- Indoor/Outdoor fieldset -->
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label for="indoor">
+              <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>
+              Indoor
+            </label>
+            <label for="outdoor">
+              <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
+              Outdoor
+            </label>
+          </fieldset>
+
+          <!-- Personality fieldset -->
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <label for="loving">
+              <input id="loving" type="checkbox" name="personality" value="loving" checked>
+              Loving
+            </label>
+            <label for="lazy">
+              <input id="lazy" type="checkbox" name="personality" value="lazy">
+              Lazy
+            </label>
+            <label for="energetic">
+              <input id="energetic" type="checkbox" name="personality" value="energetic">
+              Energetic
+            </label>
+          </fieldset>
+
+          <!-- Cat photo URL -->
+          <label for="catphotourl" style="display:none;">Cat photo URL</label>
+          <input id="catphotourl" type="url" name="catphotourl" placeholder="Cat photo URL" required aria-label="Cat photo URL">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        No Copyright -
+        <a href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer">
+          freeCodeCamp.org
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
