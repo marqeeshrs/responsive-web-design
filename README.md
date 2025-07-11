@@ -12,3 +12,9 @@ Also, very unsure when I am supposed to use branches...
 I guess that is for more complicated cooperation projects. 
 I create versions of my projects, so it must be the same thing via network with extra protections.
 Man, I just want to code... HA!
+Finished the project on 07-11-2025
+I added AI adjustments to use this project as a best habits and practices for my coding. 
+I realize that I should be practicing my markdown...I WILL...soon.
+
+# building-a-cafe-menu
+Started from scratch and created a stylesheet.
