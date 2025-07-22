@@ -14,7 +14,9 @@
                         <h1 id="title" name="title">Daily Workout Survey</h1>
                         <p id="description" name="description">Please fill out all required information to log your workout appropriately</p>
                     </div>
-                    <hr>
+                </section>
+                <hr>
+                <section>
                     <div>
                         <fieldset> <!--get name, preferred name, age, and email-->
                             <label for="first-name">Type Your First Name: 
@@ -29,6 +31,11 @@
                             <label for="number-label">Type Your Age:
                                 <input id="number-label" type="number" name="age" min="15" max="150" >
                             </label>
+                            <fieldset>
+                                <legend>Select Your Sex</legend>
+                                <label for="male-identity"><input id="user-identity" type="checkbox" checked> Male</label>
+                                <label for="female-identity"><input id="female-identity" type="checkbox"> Female</label>
+                            </fieldset>
                             <label for="email-label">Type Your Email:
                                 <input id="email-label" type="email" name="email" required>
                             </label>
@@ -45,21 +52,26 @@
                             </label>
                         </fieldset>
                         <fieldset>
-                            <legend>Do You Work With A Trainer?</legend>
-                            <label for="yes-trainer"><input id="yes-trainer" type="radio" name="with-trainer" checked> Yes
-                            </label>
-                            <label for="no-trainer"><input id="no-trainer" type="radio" name="with-trainer"> No
-                            </label>
+                            <legend>Did You Work With A Trainer?</legend>
+                            <label for="yes-trainer"><input id="yes-trainer" type="radio" name="with-trainer" checked> Yes</label>
+                            <label for="no-trainer"><input id="no-trainer" type="radio" name="with-trainer"> No</label>
                         </fieldset>
                     </div>
-                    <hr>
+                </section>
+                <hr>
+                <section>
                     <div>
                         <fieldset> <!--get ideal bodyfat% goal with pictures-->
-
+                            <label for="very-low-man"></label>
+                            <label for="low-man"></label>
+                            <label for="average-man"></label>
+                            <label for="above-average-man"></label>
+                            <label for="high-man"></label>
                         </fieldset>
-
                     </div>
+                </section>
                     <hr>
+                <section>
                     <div>
                         <fieldset> <!--get user comments-->
 
