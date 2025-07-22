@@ -8,7 +8,7 @@
     </head>
     <body>
         <main>
-            <form id="survey-form" method="POST" action='https://blankpage.lol/'>
+            <form id="survey-form" method="POST" action='https://www.webpagetest.org/blank.html'>
                 <section>
                     <div>
                         <h1 id="title" name="title">Daily Workout Survey</h1>
@@ -19,27 +19,27 @@
                 <section id="basic-information" name="basic-information">
                     <div>
                         <fieldset> <!--get name, preferred name, age, and email-->
-                            <label for="first-name">Type Your First Name: 
-                                <input class="inline" id="first-name" type="text" name="first-name" required>
+                            <label class="intro-info" for="first-name">Type Your First Name: <br>
+                                <input class="inline text-box" id="first-name" type="text" name="first-name" required>
                             </label>
                             <br>
-                            <label for="last-name">Type Your Last Name:
-                                <input class="inline" id="last-name" type="text" name="last-name" required>
+                            <label class="intro-info" for="last-name">Type Your Last Name: <br>
+                                <input class="inline text-box" id="last-name" type="text" name="last-name" required>
                             </label>
                             <br>
-                            <label for="name-label">Type Your Preferred Name:
-                                <input class="inline" id="name-label" type="text" name="preferred-name" required>
+                            <label class="intro-info" for="name-label">Type Your Preferred Name: <br>
+                                <input class="inline text-box" id="name-label" type="text" name="preferred-name" required>
                             </label>
                             <br>
-                            <label for="number-label">Type Your Age:
-                                <input class="inline" id="number-label" type="number" name="age" min="15" max="150" >
+                            <label class="intro-info" for="number-label">Type Your Age: <br>
+                                <input class="inline text-box" id="number-label" type="number" name="age" min="15" max="150" >
                             </label>
-                            <fieldset>
+                            <div>
                                 <legend>Select Your Sex</legend>
-                                <label for="male-identity"><input class="inline" id="user-identity" type="checkbox" checked> Male</label>
-                                <label for="female-identity"><input class="inline" id="female-identity" type="checkbox"> Female</label>
-                            </fieldset>
-                            <label for="email-label">Type Your Email:
+                                <label for="male"><input class="inline" id="male" type="checkbox" name="male"checked> Male</label>
+                                <label for="female"><input class="inline" id="female" type="checkbox" name="female"> Female</label>
+                            </div>
+                            <label class="intro-info" for="email-label">Type Your Email:
                                 <input id="email-label" type="email" name="email" required>
                             </label>
                         </fieldset>
@@ -65,7 +65,7 @@
                 <section id="dream-body" name="dream-body">
                     <div>
                         <fieldset required> <!--get ideal bodyfat% goal with pictures-->
-                            <fieldset class="body-shape" id="male-body-shape">
+                            <div class="body-shape" id="male-body-shape">
                                 <label for="very-low-man"><input id="very-low-man" type="checkbox" name="ideal-bodyfat" value="1" checked>
                                     <figure>
                                         <img src="https://i.imgur.com/Pv76rxZ.gif" alt="very low bodyfat man">
@@ -96,8 +96,8 @@
                                         <figcaption>High bodyfat man</figcaption>
                                     </figure>
                                 </label>
-                            </fieldset>
-                            <fieldset class="body-shape" id="female-body-shape">
+                            </div>
+                            <div class="body-shape" id="female-body-shape">
                                 <label for="very-low-woman"><input id="very-low-woman" type="checkbox" name="ideal-bodyfat" value="6" >
                                     <figure>
                                         <img src="https://i.imgur.com/pPOk8rN.gif" alt="very low bodyfat woman">
@@ -128,7 +128,7 @@
                                         <figcaption>High bodyfat woman</figcaption>
                                     </figure>
                                 </label>
-                            </fieldset>
+                            </div>
                         </fieldset>
                     </div>
                 </section>
@@ -154,8 +154,8 @@
         <footer> <!--add address, contact information and fake-copyright-->
             <p>
                 No Copyright -
-                <a href="https://blankpage.lol/" target="_blank" rel="noopener noreferrer">
-                freeCodeCamp.org
+                <a href="https://www.webpagetest.org/blank.html" target="_blank" rel="noopener noreferrer">
+                The Blankest Page
                 </a>
             </p>
         </footer>
