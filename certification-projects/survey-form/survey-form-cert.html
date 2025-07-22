@@ -8,7 +8,7 @@
     </head>
     <body>
         <main>
-            <form id="survey-form" method="POST" action='https://www.register-demo.freecodecamp.org'>
+            <form id="survey-form" method="POST" action='https://blankpage.lol/'>
                 <section>
                     <div>
                         <h1 id="title" name="title">Daily Workout Survey</h1>
@@ -16,25 +16,28 @@
                     </div>
                 </section>
                 <hr>
-                <section>
+                <section id="basic-information" name="basic-information">
                     <div>
                         <fieldset> <!--get name, preferred name, age, and email-->
                             <label for="first-name">Type Your First Name: 
-                                <input id="first-name" type="text" name="first-name" required>
+                                <input class="inline" id="first-name" type="text" name="first-name" required>
                             </label>
+                            <br>
                             <label for="last-name">Type Your Last Name:
-                                <input id="last-name" type="text" name="last-name" required>
+                                <input class="inline" id="last-name" type="text" name="last-name" required>
                             </label>
+                            <br>
                             <label for="name-label">Type Your Preferred Name:
-                                <input id="name-label" type="text" name="preferred-name" required>
+                                <input class="inline" id="name-label" type="text" name="preferred-name" required>
                             </label>
+                            <br>
                             <label for="number-label">Type Your Age:
-                                <input id="number-label" type="number" name="age" min="15" max="150" >
+                                <input class="inline" id="number-label" type="number" name="age" min="15" max="150" >
                             </label>
                             <fieldset>
                                 <legend>Select Your Sex</legend>
-                                <label for="male-identity"><input id="user-identity" type="checkbox" checked> Male</label>
-                                <label for="female-identity"><input id="female-identity" type="checkbox"> Female</label>
+                                <label for="male-identity"><input class="inline" id="user-identity" type="checkbox" checked> Male</label>
+                                <label for="female-identity"><input class="inline" id="female-identity" type="checkbox"> Female</label>
                             </fieldset>
                             <label for="email-label">Type Your Email:
                                 <input id="email-label" type="email" name="email" required>
@@ -59,7 +62,7 @@
                     </div>
                 </section>
                 <hr>
-                <section>
+                <section id="dream-body" name="dream-body">
                     <div>
                         <fieldset required> <!--get ideal bodyfat% goal with pictures-->
                             <fieldset class="body-shape" id="male-body-shape">
@@ -133,15 +136,28 @@
                 <section>
                     <div>
                         <fieldset> <!--get user comments-->
-
+                            <label for="user-notes">Please Leave a Note for Your Profile
+                                <textarea id="user-notes" rows="5" cols="30" placeholder="Any IMPORTANT information not covered above should be included here. 
+                                &#10;I.e; Health advisory, Allergens, Muscle Imbalances, Specific Goals, etc.">
+                                </textarea>
+                            </label>
                         </fieldset>
                     </div>
                 </section> <!--put terms and conditions with submit button-->
+                <label for="terms-and-conditions">
+                    <input class="inline" id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required > I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                </label>
+                <input type="submit" value="Submit" >
             </form>
         </main>
         <hr>
         <footer> <!--add address, contact information and fake-copyright-->
-
+            <p>
+                No Copyright -
+                <a href="https://blankpage.lol/" target="_blank" rel="noopener noreferrer">
+                freeCodeCamp.org
+                </a>
+            </p>
         </footer>
     </body>
 </html>
