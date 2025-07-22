@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--There will some noticeable additions to sastisfy the prompt for this certification project at freeCodeCamp.-->
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -23,25 +23,32 @@
                             <label for="last-name">Type Your Last Name:
                                 <input id="last-name" type="text" name="last-name" required>
                             </label>
-                            <label for="name">Type Your Preferred Name:
-                                <input id="name" type="text" name="preferred-name" required>
+                            <label for="name-label">Type Your Preferred Name:
+                                <input id="name-label" type="text" name="preferred-name" required>
                             </label>
-                            <label for="age">Type Your Age:
-                                <input id="age" type="number" name="age" min="15" max="150"
+                            <label for="number-label">Type Your Age:
+                                <input id="number-label" type="number" name="age" min="15" max="150" >
                             </label>
-                            <label for="email">Type Your Email:
-                                <input id="email" type="email" name="email" required>
+                            <label for="email-label">Type Your Email:
+                                <input id="email-label" type="email" name="email" required>
                             </label>
                         </fieldset>
                         <fieldset> <!--Get workout split, intensity, and purpose-->
-                            <label>
-                                
+                            <label for="dropdown">Choose Your Workout Split:
+                                <select id="dropdown">
+                                    <option value="">[Select an Option]</option>
+                                    <option value="1">Full Body Split</option>
+                                    <option value="2">Push-Pull Split</option>
+                                    <option value="3">Isolation Split</option>
+                                    <option value="4">Bro Split</option>
+                                </select>
                             </label>
-                            <label>
-                                
+                        </fieldset>
+                        <fieldset>
+                            <legend>Do You Work With A Trainer?</legend>
+                            <label for="yes-trainer"><input id="yes-trainer" type="radio" name="with-trainer" checked> Yes
                             </label>
-                            <label>
-                                
+                            <label for="no-trainer"><input id="no-trainer" type="radio" name="with-trainer"> No
                             </label>
                         </fieldset>
                     </div>
