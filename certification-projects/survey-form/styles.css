@@ -23,9 +23,13 @@ h1 {
   /* I haven't learned about this yet but I researched this, 
   and I think there's an upcoming lesson on flexbox */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  left: auto;
+  right: 0;
+  /*
   align-items: center;
   margin-bottom: 1rem;
+  */
 }
 
 .text-box {
