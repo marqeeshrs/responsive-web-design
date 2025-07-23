@@ -18,3 +18,12 @@ I realize that I should be practicing my markdown...I WILL...soon.
 
 # building-a-cafe-menu
 Started from scratch and created a stylesheet.
+
+-------
+I won't run from the fact... 
+I've been so engrossed in learning HTML 
+and developing my workflow that I didn't remember to journal, here. 
+This is a good thing to discover about myself, now rather than later.
+So, I'll just say this:
+I'll finish the Responsive Web Design course, 
+then I'll begin the next phase of my roadmap.
