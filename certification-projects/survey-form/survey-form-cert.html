@@ -20,27 +20,27 @@
                     <div>
                         <fieldset> <!--get name, preferred name, age, and email-->
                             <label class="intro-info" for="first-name">Type Your First Name: <br>
-                                <input class="text-box" id="first-name" type="text" name="first-name" required>
+                                <input class="text-box" id="first-name" type="text" name="first-name" placeholder="Richrodrick">
                             </label>
                             <br>
                             <label class="intro-info" for="last-name">Type Your Last Name: <br>
-                                <input class="text-box" id="last-name" type="text" name="last-name" required>
+                                <input class="text-box" id="last-name" type="text" name="last-name" placeholder="Brentophenehan">
                             </label>
                             <br>
-                            <label class="intro-info" for="name-label">Type Your Preferred Name: <br>
-                                <input class="text-box" id="name-label" type="text" name="preferred-name" required>
+                            <label id="name-label" class="intro-info" for="name">Type Your Preferred Name: <br>
+                                <input class="text-box" id="name" type="text" name="preferred-name" placeholder="Ricky" required>
                             </label>
                             <br>
-                            <label class="intro-info" for="number-label">Type Your Age: <br>
-                                <input class="text-box" id="number-label" type="number" name="age" min="15" max="150" >
+                            <label id="number-label" class="intro-info" for="number">Type Your Age: <br>
+                                <input class="text-box" id="number" type="number" name="age" min="15" max="150" placeholder="57">
                             </label>
                             <div class="user-sex">
                                 <legend>Select Your Sex</legend>
-                                <label  for="male"><input  id="male" type="radio" name="sex" checked> Male</label>
-                                <label  for="female"><input  id="female" type="radio" name="sex"> Female</label>
+                                <label  for="male"><input  id="male" type="radio" name="sex" value="a0"checked> Male</label>
+                                <label  for="female"><input  id="female" type="radio" name="sex" value="b0"> Female</label>
                             </div>
-                            <label class="intro-info" for="email-label">Type Your Email:
-                                <input class="text-box" id="email-label" type="email" name="email" required>
+                            <label id="email-label" class="intro-info" for="email">Type Your Email:
+                                <input class="text-box" id="email" type="email" name="email" placeholder="rickysdreamy@steamboat.hotmail" required>
                             </label>
                         </fieldset>
                         <fieldset> <!--Get workout split, intensity, and purpose-->
@@ -57,8 +57,8 @@
                         </fieldset>
                         <fieldset>
                             <legend>Did You Work With A Trainer?</legend>
-                            <label class="training" for="yes-trainer"><input id="yes-trainer" type="radio" name="with-trainer" checked> Yes</label>
-                            <label class="training" for="no-trainer"><input id="no-trainer" type="radio" name="with-trainer"> No</label>
+                            <label class="training" for="yes-trainer"><input id="yes-trainer" type="radio" name="with-trainer" value="a1"checked> Yes</label>
+                            <label class="training" for="no-trainer"><input id="no-trainer" type="radio" name="with-trainer" value="b1"> No</label>
                         </fieldset>
                     </div>
                 </section>
@@ -146,9 +146,9 @@
                     </div>
                 </section> <!--put terms and conditions with submit button-->
                 <label for="terms-and-conditions">
-                    <input  id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required > I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                    <input  id="terms-and-conditions" type="checkbox" name="terms-and-conditions" value="9999"required > I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
                 </label>
-                <input type="submit" value="Submit" >
+                <input id="submit" type="submit" value="Submit" >
             </form>
         </main>
         <hr>
