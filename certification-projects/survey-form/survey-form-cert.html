@@ -19,29 +19,40 @@
                 <section id="basic-information" name="basic-information">
                     <div>
                         <fieldset> <!--get name, preferred name, age, and email-->
-                            <label class="intro-info" for="first-name">Type Your First Name: <br>
+                            <label class="intro-info" for="first-name">
+                                Type Your First Name:
                                 <input class="text-box" id="first-name" type="text" name="first-name" placeholder="Richrodrick">
                             </label>
                             <br>
-                            <label class="intro-info" for="last-name">Type Your Last Name: <br>
+                            <label class="intro-info" for="last-name">
+                                Type Your Last Name:
                                 <input class="text-box" id="last-name" type="text" name="last-name" placeholder="Brentophenehan">
                             </label>
                             <br>
-                            <label id="name-label" class="intro-info" for="name">Type Your Preferred Name: <br>
+                            <label id="name-label" class="intro-info" for="name">
+                                Type Your Preferred Name:
                                 <input class="text-box" id="name" type="text" name="preferred-name" placeholder="Ricky" required>
                             </label>
                             <br>
-                            <label id="number-label" class="intro-info" for="number">Type Your Age: <br>
-                                <input class="text-box" id="number" type="number" name="age" min="15" max="150" placeholder="57">
+                            <label id="number-label" class="intro-info" for="number">
+                                Type Your Age:
+                                <input class="text-box" id="number" type="number" name="age" min="15" max="150" placeholder="57" required>
                             </label>
                             <div class="user-sex">
                                 <legend>Select Your Sex</legend>
                                 <div class="sex-options">
-                                    <label class="sex-radio" id="male-radio" for="male"><input  id="male" type="radio" name="sex" value="a0"checked> Male</label>
-                                    <label class="sex-radio" id="female-radio" for="female"><input  id="female" type="radio" name="sex" value="b0"> Female</label>
+                                    <label class="sex-radio" id="male-radio" for="male">
+                                        <input  id="male" type="radio" name="sex" value="a0"checked>
+                                         Male
+                                    </label>
+                                    <label class="sex-radio" id="female-radio" for="female">
+                                        <input  id="female" type="radio" name="sex" value="b0">
+                                         Female
+                                    </label>
                                 </div>
                             </div>
-                            <label id="email-label" class="intro-info" for="email">Type Your Email:
+                            <label id="email-label" class="intro-info" for="email">
+                                Type Your Email:
                                 <input class="text-box" id="email" type="email" name="email" placeholder="rickysdreamy@steamboat.hotmail" required>
                             </label>
                         </fieldset>
@@ -70,69 +81,72 @@
                 <section id="dream-body" name="dream-body">
                     <div>
                         <fieldset required> <!--get ideal bodyfat% goal with pictures-->
-                            <div class="body-shape" id="male-body-shape">
-                                <label for="very-low-man"><input id="very-low-man" type="checkbox" name="ideal-bodyfat" value="1" checked>
-                                    <figure>
-                                        <img src="https://i.imgur.com/Pv76rxZ.gif" alt="very low bodyfat man">
-                                        <figcaption>Very low bodyfat man</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="low-man"><input id="low-man" type="checkbox" name="ideal-bodyfat" value="2" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/T8Nr7Wp.gif" alt="low bodyfat man">
-                                        <figcaption>Low bodyfat man</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="average-man"><input id="average-man" type="checkbox" name="ideal-bodyfat" value="3" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/st2z8IE.gif" alt="average bodyfat man">
-                                        <figcaption>Average bodyfat man</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="above-average-man"><input id="above-average-man" type="checkbox" name="ideal-bodyfat" value="4" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/IYRdxWH.gif" alt="above average bodyfat man">
-                                        <figcaption>Above average bodyfat man</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="high-man"><input id="high-man" type="checkbox" name="ideal-bodyfat" value="5" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/PdkO7kE.gif" alt="High bodyfat man">
-                                        <figcaption>High bodyfat man</figcaption>
-                                    </figure>
-                                </label>
-                            </div>
-                            <div class="body-shape" id="female-body-shape">
-                                <label for="very-low-woman"><input id="very-low-woman" type="checkbox" name="ideal-bodyfat" value="6" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/pPOk8rN.gif" alt="very low bodyfat woman">
-                                        <figcaption>Very low bodyfat woman</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="low-woman"><input id="low-woman" type="checkbox" name="ideal-bodyfat" value="7" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/Q1p5IWs.gif" alt="low bodyfat woman">
-                                        <figcaption>Low bodyfat woman</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="average-woman"><input id="average-woman" type="checkbox" name="ideal-bodyfat" value="8" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/LvnuGUu.gif" alt="average bodyfat woman">
-                                        <figcaption>Average bodyfat woman</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="above-average-woman"><input id="above-average-woman" type="checkbox" name="ideal-bodyfat" value="9" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/wcsVl1b.gif" alt="above average bodyfat woman">
-                                        <figcaption>Above average bodyfat woman</figcaption>
-                                    </figure>
-                                </label>
-                                <label for="high-woman"><input id="high-woman" type="checkbox" name="ideal-bodyfat" value="10" >
-                                    <figure>
-                                        <img src="https://i.imgur.com/RHESrgU.gif" alt="high bodyfat woman">
-                                        <figcaption>High bodyfat woman</figcaption>
-                                    </figure>
-                                </label>
+                            <legend>What Is Your Body-Shape Goal?</legend>
+                            <div class="body-shape-wrapper">
+                                <div class="body-shape" id="male-body-shape">
+                                    <label for="very-low-man"><input id="very-low-man" type="radio" name="ideal-bodyfat" value="1" checked required>
+                                        <figure>
+                                            <img src="https://i.imgur.com/Pv76rxZ.gif" alt="very low bodyfat man">
+                                            <figcaption>Very low</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="low-man"><input id="low-man" type="radio" name="ideal-bodyfat" value="2" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/T8Nr7Wp.gif" alt="low bodyfat man">
+                                            <figcaption>Low</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="average-man"><input id="average-man" type="radio" name="ideal-bodyfat" value="3" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/st2z8IE.gif" alt="average bodyfat man">
+                                            <figcaption>Average</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="above-average-man"><input id="above-average-man" type="radio" name="ideal-bodyfat" value="4" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/IYRdxWH.gif" alt="above average bodyfat man">
+                                            <figcaption>Above average</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="high-man"><input id="high-man" type="radio" name="ideal-bodyfat" value="5" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/PdkO7kE.gif" alt="High bodyfat man">
+                                            <figcaption>High</figcaption>
+                                        </figure>
+                                    </label>
+                                </div>
+                                <div class="body-shape" id="female-body-shape">
+                                    <label for="very-low-woman"><input id="very-low-woman" type="radio" name="ideal-bodyfat" value="6" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/pPOk8rN.gif" alt="very low bodyfat woman">
+                                            <figcaption>Very low</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="low-woman"><input id="low-woman" type="radio" name="ideal-bodyfat" value="7" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/Q1p5IWs.gif" alt="low bodyfat woman">
+                                            <figcaption>Low</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="average-woman"><input id="average-woman" type="radio" name="ideal-bodyfat" value="8" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/LvnuGUu.gif" alt="average bodyfat woman">
+                                            <figcaption>Average</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="above-average-woman"><input id="above-average-woman" type="radio" name="ideal-bodyfat" value="9" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/wcsVl1b.gif" alt="above average bodyfat woman">
+                                            <figcaption>Above average</figcaption>
+                                        </figure>
+                                    </label>
+                                    <label for="high-woman"><input id="high-woman" type="radio" name="ideal-bodyfat" value="10" >
+                                        <figure>
+                                            <img src="https://i.imgur.com/RHESrgU.gif" alt="high bodyfat woman">
+                                            <figcaption>High</figcaption>
+                                        </figure>
+                                    </label>
+                                </div>
                             </div>
                         </fieldset>
                     </div>
@@ -141,7 +155,8 @@
                 <section>
                     <div>
                         <fieldset> <!--get user comments-->
-                            <label for="user-notes">Please Leave a Note for Your Profile
+                            <label class="comment-box" for="user-notes">
+                                <p>Please Leave a Note for Your Profile</p>
                                 <textarea id="user-notes" rows="5" cols="30" placeholder="Any IMPORTANT information not covered above should be included here. 
                                 &#10;I.e; Health advisory, Allergens, Muscle Imbalances, Specific Goals, etc.">
                                 </textarea>
@@ -149,10 +164,11 @@
                         </fieldset>
                     </div>
                 </section> <!--put terms and conditions with submit button-->
-                <label for="terms-and-conditions">
-                    <input  id="terms-and-conditions" type="checkbox" name="terms-and-conditions" value="9999"required > I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                <label class="tac-button" for="terms-and-conditions">
+                    <input  id="terms-and-conditions" type="checkbox" name="terms-and-conditions" value="9999" required > I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+                    <br>
+                    <input id="submit" type="submit" value="Submit" >
                 </label>
-                <input id="submit" type="submit" value="Submit" >
             </form>
         </main>
         <hr>
