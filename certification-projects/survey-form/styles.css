@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-*::
-
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: large;
@@ -24,9 +22,9 @@ h1 {
   text-align: center;
 }
 
-label.required::after {
-  content: " *";
-  color: red;
+#warning {
+  display: block;
+  text-align: center;
 }
 
 .intro-info {
@@ -84,8 +82,11 @@ figure {
 }
 
 figure img {
-  max-width: 100%;
+  width: auto;
   height: auto;
+  min-width: 25%;
+  min-height: 25%;
+  margin: -1.5em;
 }
 
 .body-shape label {
@@ -99,8 +100,19 @@ figure img {
   transform-origin: top;
 }
 
+figcaption {
+  margin-top: -55%;
+}
+
+figcaption[name="long"] {
+  margin-top: -31.25%;
+}
+
+img {
+  transform: scale(0.5);
+}
+
 #dream-body {
-  padding: 0 5%;
   text-align: center;
 }
 
