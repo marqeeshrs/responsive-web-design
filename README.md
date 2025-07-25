@@ -27,3 +27,12 @@ This is a good thing to discover about myself, now rather than later.
 So, I'll just say this:
 I'll finish the Responsive Web Design course, 
 then I'll begin the next phase of my roadmap.
+-------
+I am going to put a pause on workflowing more tutorial content from freeCodeCamp.
+I will workflow my own personal website when I get to it.
+Right now, I need to be focusing on learning the rest of the
+content so I can return to my degree program's coursework 
+and begin fleshing out my portfolio website. OH and so I can
+begin the Javascript content.
+Essentially, I'm trying to figure out what I'd like to do more:
+front-end, back-end, full-stack, machine learning, etc.
