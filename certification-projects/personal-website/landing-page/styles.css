@@ -4,7 +4,7 @@
     --caption-color: #8B6B4D;
     --border-line-color: #1D3557;
     --accent-button-links: #C0A16B;
-    --text-light: #F5F5F5, #FFFFFF;
+    --text-light: #FFFFFF;
 }
 
 body {
@@ -63,7 +63,7 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
-    color: #ccc;
+    color: var(--text-light);
 }
 
 /* Responsive for Mobile Devices */
