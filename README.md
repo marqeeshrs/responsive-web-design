@@ -27,6 +27,7 @@ This is a good thing to discover about myself, now rather than later.
 So, I'll just say this:
 I'll finish the Responsive Web Design course, 
 then I'll begin the next phase of my roadmap.
+
 -------
 I am going to put a pause on workflowing more tutorial content from freeCodeCamp.
 I will workflow my own personal website when I get to it.
@@ -36,3 +37,12 @@ and begin fleshing out my portfolio website. OH and so I can
 begin the Javascript content.
 Essentially, I'm trying to figure out what I'd like to do more:
 front-end, back-end, full-stack, machine learning, etc.
+
+-------
+FINALLY, I am working on my portfolio website and will be updating that as 
+I accomplish project goals. I've been told that it is in my best interest
+to begin working on a real-world project. I think I want to make an interactive
+timeline portfolio. Seems like it will be a good way to showcase my front-end
+skills. Wish me luck!
+
+-------
