@@ -7,6 +7,26 @@
     --text-light: #FFFFFF;
 }
 
+* {
+    color: var(--text-light);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Logo Icon */
+.logo-img {
+    height: 40px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#brand-name {
+
+}
+
+
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -64,6 +84,19 @@ header h1 {
 header p {
     font-size: 1.2rem;
     color: var(--text-light);
+}
+
+/* Project Card */
+.project-card {
+    background-color: #3e5959;
+    border-left: 4px solid var(--accent-button-links);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+.project-card:hover {
+    transform: translateX(5px);
 }
 
 /* Responsive for Mobile Devices */
