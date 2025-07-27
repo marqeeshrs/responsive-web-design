@@ -13,19 +13,19 @@
 }
 
 /* Logo Icon */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--accent-button-links);
+}
+
 .logo-img {
     height: 40px;
-    vertical-align: middle;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+    width: auto;
 }
-
-#brand-name {
-
-}
-
 
 body {
     margin: 0;
