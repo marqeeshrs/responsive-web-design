@@ -102,6 +102,7 @@ header p {
 }
 .project-card:hover {
     transform: translateX(5px);
+    background-color: var(--caption-color);
 }
 
 /* Responsive for Mobile Devices */
