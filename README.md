@@ -46,3 +46,5 @@ timeline portfolio. Seems like it will be a good way to showcase my front-end
 skills. Wish me luck!
 
 -------
+Completed this course 07/26/25. Continuing to work on personal
+portfolio as my javascript knowledge improves.
