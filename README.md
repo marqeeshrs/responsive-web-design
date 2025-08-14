@@ -48,3 +48,7 @@ skills. Wish me luck!
 -------
 Completed this course 07/26/25. Continuing to work on personal
 portfolio as my javascript knowledge improves.
+
+-------
+Log 08/14/2025
+Returning to certification projects to clean and improve my code while I learn Javascript.
